@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sainttu-001",
+    "name": "Oud Leather Wallet",
+    "description": "Hand-stitched leather wallet, deep espresso tone.",
+    "price": 42.00,
+    "currency": "USD",
+    "image": ""
+  },
+  {
+    "id": "sainttu-002",
+    "name": "Gold-Thread Scarf",
+    "description": "Woven cotton-silk scarf with fine gold thread edging.",
+    "price": 65.00,
+    "currency": "USD",
+    "image": ""
+  },
+  {
+    "id": "sainttu-003",
+    "name": "Brass Incense Holder",
+    "description": "Solid brass, hand-cast, for bakhoor and incense sticks.",
+    "price": 28.00,
+    "currency": "USD",
+    "image": ""
+  }
+]

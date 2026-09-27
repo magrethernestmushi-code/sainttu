@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sainttu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">﷽</span>
+      <span class="brand-name">Sainttu</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle" title="Switch language / التبديل">EN / عربي</button>
+      <button id="cartBtn" class="cart-btn">
+        <span data-i18n="cart">Cart</span>
+        <span id="cartCount" class="cart-count">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-pattern" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <p class="hero-eyebrow" data-i18n="heroEyebrow">A house of considered things</p>
+    <h1 class="hero-title" data-i18n="heroTitle">Sainttu</h1>
+    <p class="hero-sub" data-i18n="heroSub">Pieces chosen slowly, made to last. Pay by Visa card, checkout in under a minute.</p>
+    <a href="#collection" class="hero-cta" data-i18n="heroCta">View the collection</a>
+  </div>
+</section>
+
+<main class="wrap" id="collection">
+  <div class="section-head">
+    <h2 data-i18n="collectionTitle">The Collection</h2>
+    <p data-i18n="collectionSub">Every piece below is added and priced by Sainttu directly.</p>
+  </div>
+  <div id="productGrid" class="product-grid">
+    <!-- products render here -->
+  </div>
+</main>
+
+<section id="about" class="about">
+  <div class="wrap about-inner">
+    <h2 data-i18n="aboutTitle">About Sainttu</h2>
+    <p data-i18n="aboutBody">Sainttu is a small, independent storefront. We add what we sell ourselves, and every order is paid for securely by Visa card at checkout.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>&copy; <span id="year"></span> Sainttu</span>
+    <span class="footer-secure" data-i18n="footerSecure">Secured checkout · Visa accepted</span>
+  </div>
+</footer>
+
+<!-- Cart drawer -->
+<aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+  <div class="cart-drawer-head">
+    <h3 data-i18n="yourCart">Your Cart</h3>
+    <button id="closeCart" class="icon-btn" aria-label="Close cart">&times;</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span data-i18n="total">Total</span>
+      <span id="cartTotal">$0.00</span>
+    </div>
+    <a href="checkout.html" id="checkoutLink" class="checkout-btn" data-i18n="checkout">Checkout with Visa</a>
+  </div>
+</aside>
+<div id="cartOverlay" class="cart-overlay"></div>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

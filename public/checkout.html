@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout — Sainttu</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="checkout-page">
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">﷽</span>
+      <span class="brand-name">Sainttu</span>
+    </a>
+  </div>
+</header>
+
+<main class="wrap checkout-wrap">
+  <h1 data-i18n="checkoutTitle">Checkout</h1>
+
+  <div class="checkout-grid">
+    <section class="checkout-summary">
+      <h2 data-i18n="orderSummary">Order summary</h2>
+      <div id="summaryItems" class="summary-items"></div>
+      <div class="summary-total-row">
+        <span data-i18n="total">Total</span>
+        <span id="summaryTotal">$0.00</span>
+      </div>
+    </section>
+
+    <section class="checkout-pay">
+      <h2 data-i18n="payTitle">Pay by Visa</h2>
+      <p class="pay-note" data-i18n="payNote">
+        You'll enter your card details on Stripe's secure payment page. Sainttu never sees or stores your card number.
+      </p>
+
+      <form id="contactForm" class="contact-form">
+        <label>
+          <span data-i18n="email">Email for receipt</span>
+          <input type="email" id="email" required placeholder="you@example.com">
+        </label>
+        <button type="submit" id="payBtn" class="pay-btn" data-i18n="payBtn">Pay with Visa</button>
+        <p id="payError" class="pay-error" hidden></p>
+      </form>
+
+      <div class="secure-badge">
+        <span data-i18n="secureBadge">🔒 Encrypted checkout · Visa, Mastercard supported</span>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span>&copy; <span id="year"></span> Sainttu</span>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
