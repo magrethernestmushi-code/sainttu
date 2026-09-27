@@ -285,3 +285,33 @@ html[dir="rtl"] .cart-drawer { right: auto; left: 0; border-left: none; border-r
 html[dir="rtl"] .cart-drawer.open { transform: translateX(0); }
 html[dir="rtl"] .cart-item, html[dir="rtl"] .cart-total-row, html[dir="rtl"] .summary-item, html[dir="rtl"] .summary-total-row, html[dir="rtl"] .footer-row, html[dir="rtl"] .header-actions { flex-direction: row-reverse; }
 html[dir="rtl"] body, html[dir="rtl"] .contact-form input { font-family: 'Cairo', sans-serif; }
+
+/* Deliver-to location bar */
+.location-bar { background: var(--green-darker, #16281f); border-bottom: 1px solid var(--line); }
+.location-row { padding: 8px 0; }
+.location-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: none; border: none; color: var(--cream, #f4ecdc);
+  font-size: 0.85rem; cursor: pointer; padding: 4px 0;
+}
+.location-btn:hover { text-decoration: underline; }
+.location-pin { font-size: 0.95rem; }
+.location-btn-block {
+  display: flex; width: 100%; justify-content: center;
+  background: #f4ecdc; border: 1px dashed var(--line); border-radius: var(--radius);
+  color: #1b1815; padding: 12px; margin-bottom: 20px;
+}
+
+/* Category tabs */
+.category-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.category-tab {
+  padding: 7px 16px; border-radius: 999px; border: 1px solid var(--line);
+  background: #fff; font-size: 0.85rem; cursor: pointer; transition: all 0.15s ease;
+}
+.category-tab:hover { border-color: var(--gold, #c9a24b); }
+.category-tab.active { background: var(--green-deep, #1f3b2c); color: var(--cream, #f4ecdc); border-color: var(--green-deep, #1f3b2c); }
+
+/* WhatsApp order button */
+.whatsapp-btn { background: #25d366; color: #06331a; }
+.whatsapp-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.or-divider { text-align: center; font-size: 0.8rem; color: rgba(27,24,21,0.5); margin: 2px 0; }

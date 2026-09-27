@@ -14,9 +14,63 @@ function renderSummary() {
   totalEl.textContent = formatMoney(cartTotal(cart), cart[0]?.currency || "USD");
 }
 
+async function initWhatsappOrder() {
+  const btn = document.getElementById("whatsappBtn");
+  if (!btn) return;
+  let whatsappNumber = "";
+  try {
+    const res = await fetch("/api/config");
+    if (res.ok) {
+      const data = await res.json();
+      whatsappNumber = data.whatsappNumber || "";
+    }
+  } catch {
+    // Config fetch failed — button stays disabled below.
+  }
+
+  if (!whatsappNumber) {
+    btn.disabled = true;
+    btn.title = "WhatsApp ordering isn't set up yet";
+    return;
+  }
+
+  btn.addEventListener("click", () => {
+    const cart = getCart();
+    if (cart.length === 0) {
+      alert("Your cart is empty.");
+      return;
+    }
+    const name = document.getElementById("fullName")?.value;
+    const phone = document.getElementById("phone")?.value;
+    if (!name || !phone) {
+      alert("Please add your name and phone number first.");
+      return;
+    }
+    window.open(buildWhatsAppOrderLink(whatsappNumber), "_blank");
+  });
+}
+
+function initCheckoutLocation() {
+  const btn = document.getElementById("checkoutLocationBtn");
+  const textEl = document.getElementById("checkoutLocationText");
+  if (!btn || !textEl) return;
+
+  const saved = getSavedLocation();
+  if (saved) textEl.textContent = saved.label;
+
+  btn.addEventListener("click", () => {
+    textEl.textContent = "Locating…";
+    requestLocation((loc, err) => {
+      textEl.textContent = loc ? loc.label : (err || "Could not get location");
+    });
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("year") && (document.getElementById("year").textContent = new Date().getFullYear());
   renderSummary();
+  initCheckoutLocation();
+  initWhatsappOrder();
 
   const form = document.getElementById("contactForm");
   const payBtn = document.getElementById("payBtn");

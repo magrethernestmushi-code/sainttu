@@ -25,7 +25,14 @@ const SAINTTU_I18N = {
     secureBadge: "🔒 Encrypted checkout · Visa, Mastercard supported",
     addToCart: "Add to cart",
     emptyCart: "Your cart is empty.",
-    noProducts: "No products yet — add some in data/products.json."
+    noProducts: "No products yet — add some in data/products.json.",
+    deliverToDefault: "Deliver to — set your location",
+    deliveryTitle: "Delivery location",
+    shareLocation: "Share my location",
+    name: "Full name",
+    phone: "Phone number",
+    whatsappBtn: "Order via WhatsApp",
+    orDivider: "or"
   },
   ar: {
     dir: "rtl",
@@ -51,7 +58,14 @@ const SAINTTU_I18N = {
     secureBadge: "🔒 دفع مشفّر · فيزا وماستركارد مقبولتان",
     addToCart: "أضف إلى السلة",
     emptyCart: "سلتك فارغة.",
-    noProducts: "لا توجد منتجات بعد — أضف بعضها في data/products.json."
+    noProducts: "لا توجد منتجات بعد — أضف بعضها في data/products.json.",
+    deliverToDefault: "التوصيل إلى — حدد موقعك",
+    deliveryTitle: "موقع التوصيل",
+    shareLocation: "شارك موقعي",
+    name: "الاسم الكامل",
+    phone: "رقم الهاتف",
+    whatsappBtn: "اطلب عبر واتساب",
+    orDivider: "أو"
   }
 };
 

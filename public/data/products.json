@@ -5,7 +5,8 @@
     "description": "Hand-stitched leather wallet, deep espresso tone.",
     "price": 42.00,
     "currency": "USD",
-    "image": ""
+    "image": "",
+    "category": "Accessories"
   },
   {
     "id": "sainttu-002",
@@ -13,7 +14,8 @@
     "description": "Woven cotton-silk scarf with fine gold thread edging.",
     "price": 65.00,
     "currency": "USD",
-    "image": ""
+    "image": "",
+    "category": "Accessories"
   },
   {
     "id": "sainttu-003",
@@ -21,6 +23,61 @@
     "description": "Solid brass, hand-cast, for bakhoor and incense sticks.",
     "price": 28.00,
     "currency": "USD",
-    "image": ""
+    "image": "",
+    "category": "Accessories"
+  },
+  {
+    "id": "sainttu-101",
+    "name": "Electric Kettle 1.7L",
+    "description": "Stainless steel, auto shut-off, fast boil.",
+    "price": 24.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
+  },
+  {
+    "id": "sainttu-102",
+    "name": "Blender 1.5L",
+    "description": "Multi-speed countertop blender with glass jar.",
+    "price": 38.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
+  },
+  {
+    "id": "sainttu-103",
+    "name": "Microwave Oven 20L",
+    "description": "Compact digital microwave with 6 power levels.",
+    "price": 89.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
+  },
+  {
+    "id": "sainttu-104",
+    "name": "Steam Iron",
+    "description": "Ceramic soleplate, adjustable steam and temperature.",
+    "price": 22.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
+  },
+  {
+    "id": "sainttu-105",
+    "name": "Standing Fan 16-inch",
+    "description": "3-speed oscillating fan with adjustable height.",
+    "price": 32.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
+  },
+  {
+    "id": "sainttu-106",
+    "name": "Mini Fridge 50L",
+    "description": "Compact single-door refrigerator, ideal for a small kitchen.",
+    "price": 145.00,
+    "currency": "USD",
+    "image": "",
+    "category": "Home Appliances"
   }
 ]

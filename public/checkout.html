@@ -32,16 +32,30 @@
     </section>
 
     <section class="checkout-pay">
-      <h2 data-i18n="payTitle">Pay by Visa</h2>
-      <p class="pay-note" data-i18n="payNote">
-        You'll enter your card details on Stripe's secure payment page. Sainttu never sees or stores your card number.
-      </p>
+      <h2 data-i18n="deliveryTitle">Delivery location</h2>
+      <button type="button" id="checkoutLocationBtn" class="location-btn location-btn-block">
+        <span class="location-pin">📍</span>
+        <span id="checkoutLocationText" data-i18n="shareLocation">Share my location</span>
+      </button>
 
       <form id="contactForm" class="contact-form">
         <label>
-          <span data-i18n="email">Email for receipt</span>
-          <input type="email" id="email" required placeholder="you@example.com">
+          <span data-i18n="name">Full name</span>
+          <input type="text" id="fullName" required placeholder="Your name">
         </label>
+        <label>
+          <span data-i18n="phone">Phone number</span>
+          <input type="tel" id="phone" required placeholder="+255 7xx xxx xxx">
+        </label>
+        <label>
+          <span data-i18n="email">Email for receipt</span>
+          <input type="email" id="email" placeholder="you@example.com (optional)">
+        </label>
+
+        <button type="button" id="whatsappBtn" class="pay-btn whatsapp-btn" data-i18n="whatsappBtn">Order via WhatsApp</button>
+
+        <div class="or-divider" data-i18n="orDivider">or</div>
+
         <button type="submit" id="payBtn" class="pay-btn" data-i18n="payBtn">Pay with Visa</button>
         <p id="payError" class="pay-error" hidden></p>
       </form>

@@ -30,6 +30,15 @@
   </div>
 </header>
 
+<div class="location-bar">
+  <div class="wrap location-row">
+    <button id="locationBtn" class="location-btn">
+      <span class="location-pin">📍</span>
+      <span id="locationText" data-i18n="deliverToDefault">Deliver to — set your location</span>
+    </button>
+  </div>
+</div>
+
 <section class="hero">
   <div class="hero-pattern" aria-hidden="true"></div>
   <div class="wrap hero-inner">
@@ -45,6 +54,7 @@
     <h2 data-i18n="collectionTitle">The Collection</h2>
     <p data-i18n="collectionSub">Every piece below is added and priced by Sainttu directly.</p>
   </div>
+  <div id="categoryTabs" class="category-tabs"></div>
   <div id="productGrid" class="product-grid">
     <!-- products render here -->
   </div>

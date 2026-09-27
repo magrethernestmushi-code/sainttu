@@ -52,6 +52,13 @@ app.post(
 
 app.use(express.json());
 
+// Lets the frontend know whether WhatsApp ordering is set up, without
+// hardcoding the phone number in the page source. Set WHATSAPP_NUMBER on
+// Render (E.164 format, digits only, e.g. 255712345678) to turn it on.
+app.get("/api/config", (req, res) => {
+  res.json({ whatsappNumber: process.env.WHATSAPP_NUMBER || "" });
+});
+
 function loadProducts() {
   const file = path.join(__dirname, "..", "public", "data", "products.json");
   return JSON.parse(fs.readFileSync(file, "utf8"));
