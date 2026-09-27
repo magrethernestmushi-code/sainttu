@@ -3,81 +3,81 @@
     "id": "sainttu-001",
     "name": "Oud Leather Wallet",
     "description": "Hand-stitched leather wallet, deep espresso tone.",
-    "price": 42.00,
+    "price": 42.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/c1272d/ffffff?text=Leather+Wallet",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23c1272d%22/%3E%0A%3Crect%20x%3D%2245%22%20y%3D%2270%22%20width%3D%22110%22%20height%3D%2270%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Cline%20x1%3D%2245%22%20y1%3D%22105%22%20x2%3D%22155%22%20y2%3D%22105%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Ccircle%20cx%3D%22140%22%20cy%3D%22105%22%20r%3D%226%22%20fill%3D%22%23ffffff%22/%3E%0A%3C/svg%3E",
     "category": "Accessories"
   },
   {
     "id": "sainttu-002",
     "name": "Gold-Thread Scarf",
     "description": "Woven cotton-silk scarf with fine gold thread edging.",
-    "price": 65.00,
+    "price": 65.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/f2741e/ffffff?text=Scarf",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23f2741e%22/%3E%0A%3Cpath%20d%3D%22M40%2070%20Q100%2050%20160%2070%20Q140%20100%20160%20130%20Q100%20150%2040%20130%20Q60%20100%2040%2070%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cline%20x1%3D%2270%22%20y1%3D%2280%22%20x2%3D%2270%22%20y2%3D%22120%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%2275%22%20x2%3D%22100%22%20y2%3D%22125%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%22130%22%20y1%3D%2280%22%20x2%3D%22130%22%20y2%3D%22120%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3C/svg%3E",
     "category": "Accessories"
   },
   {
     "id": "sainttu-003",
     "name": "Brass Incense Holder",
     "description": "Solid brass, hand-cast, for bakhoor and incense sticks.",
-    "price": 28.00,
+    "price": 28.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/c1272d/ffffff?text=Incense+Holder",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23c1272d%22/%3E%0A%3Cpath%20d%3D%22M100%2040%20Q110%2055%20100%2065%20Q90%2075%20100%2090%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%2290%22%20x2%3D%22100%22%20y2%3D%22140%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%225%22/%3E%0A%3Cpath%20d%3D%22M60%20140%20h80%20l-10%2020%20h-60%20z%22%20fill%3D%22%23ffffff%22/%3E%0A%3C/svg%3E",
     "category": "Accessories"
   },
   {
     "id": "sainttu-101",
     "name": "Electric Kettle 1.7L",
     "description": "Stainless steel, auto shut-off, fast boil.",
-    "price": 24.00,
+    "price": 24.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/f2741e/ffffff?text=Electric+Kettle",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23f2741e%22/%3E%0A%3Cpath%20d%3D%22M60%2090%20q0%20-35%2040%20-35%20q40%200%2040%2035%20v40%20q0%2015%20-15%2015%20h-50%20q-15%200%20-15%20-15%20z%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Cpath%20d%3D%22M100%2060%20l30%20-15%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M65%2075%20q-20%205%20-20%2025%20q0%2015%2015%2020%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%225%22/%3E%0A%3Crect%20x%3D%2280%22%20y%3D%2245%22%20width%3D%2216%22%20height%3D%2210%22%20rx%3D%222%22%20fill%3D%22%23ffffff%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   },
   {
     "id": "sainttu-102",
     "name": "Blender 1.5L",
     "description": "Multi-speed countertop blender with glass jar.",
-    "price": 38.00,
+    "price": 38.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/c1272d/ffffff?text=Blender",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23c1272d%22/%3E%0A%3Cpath%20d%3D%22M75%2050%20h50%20l-8%2070%20h-34%20z%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Crect%20x%3D%2260%22%20y%3D%22120%22%20width%3D%2280%22%20height%3D%2225%22%20rx%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Cline%20x1%3D%2285%22%20y1%3D%2265%22%20x2%3D%22115%22%20y2%3D%2265%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%2283%22%20y1%3D%2280%22%20x2%3D%22117%22%20y2%3D%2280%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   },
   {
     "id": "sainttu-103",
     "name": "Microwave Oven 20L",
     "description": "Compact digital microwave with 6 power levels.",
-    "price": 89.00,
+    "price": 89.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/f2741e/ffffff?text=Microwave",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23f2741e%22/%3E%0A%3Crect%20x%3D%2235%22%20y%3D%2265%22%20width%3D%22130%22%20height%3D%2280%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Crect%20x%3D%2248%22%20y%3D%2278%22%20width%3D%2280%22%20height%3D%2254%22%20rx%3D%224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%225%22/%3E%0A%3Ccircle%20cx%3D%22145%22%20cy%3D%2290%22%20r%3D%226%22%20fill%3D%22%23ffffff%22/%3E%0A%3Crect%20x%3D%22136%22%20y%3D%22105%22%20width%3D%2218%22%20height%3D%228%22%20fill%3D%22%23ffffff%22/%3E%0A%3Crect%20x%3D%22136%22%20y%3D%22118%22%20width%3D%2218%22%20height%3D%228%22%20fill%3D%22%23ffffff%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   },
   {
     "id": "sainttu-104",
     "name": "Steam Iron",
     "description": "Ceramic soleplate, adjustable steam and temperature.",
-    "price": 22.00,
+    "price": 22.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/c1272d/ffffff?text=Steam+Iron",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23c1272d%22/%3E%0A%3Cpath%20d%3D%22M55%20130%20q0%20-45%2055%20-55%20q35%205%2035%2030%20v25%20z%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M75%2090%20q20%20-12%2045%20-5%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%2255%22%20y1%3D%22130%22%20x2%3D%22145%22%20y2%3D%22130%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   },
   {
     "id": "sainttu-105",
     "name": "Standing Fan 16-inch",
     "description": "3-speed oscillating fan with adjustable height.",
-    "price": 32.00,
+    "price": 32.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/f2741e/ffffff?text=Standing+Fan",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23f2741e%22/%3E%0A%3Ccircle%20cx%3D%22100%22%20cy%3D%2280%22%20r%3D%2240%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Ccircle%20cx%3D%22100%22%20cy%3D%2280%22%20r%3D%228%22%20fill%3D%22%23ffffff%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%2280%22%20x2%3D%22100%22%20y2%3D%2248%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%2280%22%20x2%3D%22128%22%20y2%3D%2296%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%2280%22%20x2%3D%2272%22%20y2%3D%2296%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%224%22/%3E%0A%3Cline%20x1%3D%22100%22%20y1%3D%22120%22%20x2%3D%22100%22%20y2%3D%22160%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Cline%20x1%3D%2270%22%20y1%3D%22160%22%20x2%3D%22130%22%20y2%3D%22160%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   },
   {
     "id": "sainttu-106",
     "name": "Mini Fridge 50L",
     "description": "Compact single-door refrigerator, ideal for a small kitchen.",
-    "price": 145.00,
+    "price": 145.0,
     "currency": "USD",
-    "image": "https://placehold.co/500x500/c1272d/ffffff?text=Mini+Fridge",
+    "image": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20200%20200%22%3E%3Crect%20width%3D%22200%22%20height%3D%22200%22%20fill%3D%22%23c1272d%22/%3E%0A%3Crect%20x%3D%2255%22%20y%3D%2235%22%20width%3D%2290%22%20height%3D%22130%22%20rx%3D%228%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22/%3E%0A%3Cline%20x1%3D%2255%22%20y1%3D%2290%22%20x2%3D%22145%22%20y2%3D%2290%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%225%22/%3E%0A%3Cline%20x1%3D%22120%22%20y1%3D%2250%22%20x2%3D%22120%22%20y2%3D%2270%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22/%3E%0A%3Cline%20x1%3D%22120%22%20y1%3D%22105%22%20x2%3D%22120%22%20y2%3D%22145%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%226%22%20stroke-linecap%3D%22round%22/%3E%0A%3C/svg%3E",
     "category": "Home Appliances"
   }
 ]
