@@ -238,9 +238,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("cartBtn")?.addEventListener("click", openCart);
   document.getElementById("closeCart")?.addEventListener("click", closeCart);
   document.getElementById("cartOverlay")?.addEventListener("click", closeCart);
-  document.getElementById("langToggle")?.addEventListener("click", () => {
-    setTimeout(() => { loadProducts(); renderCart(); }, 0);
-  });
   initLocationBar();
   loadProducts();
   renderCart();
